@@ -39,7 +39,6 @@ const Preloader = () => {
         },
         { scope: preloaderRef },
     );
-
     return (
         <div className="fixed inset-0 z-[6] flex" ref={preloaderRef}>
             <div className="preloader-item h-full w-[10%] bg-black"></div>
@@ -54,13 +53,17 @@ const Preloader = () => {
             <div className="preloader-item h-full w-[10%] bg-black"></div>
 
             <p className="name-text flex text-[20vw] lg:text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
+                <span className="inline-block translate-y-full">A</span>
                 <span className="inline-block translate-y-full">D</span>
-                <span className="inline-block translate-y-full">A</span>
-                <span className="inline-block translate-y-full">N</span>
                 <span className="inline-block translate-y-full">I</span>
-                <span className="inline-block translate-y-full">Y</span>
-                <span className="inline-block translate-y-full">A</span>
                 <span className="inline-block translate-y-full">L</span>
+                
+                <span className="inline-block translate-y-full ml-5">W</span>
+                <span className="inline-block translate-y-full">A</span>
+                <span className="inline-block translate-y-full">H</span>
+                <span className="inline-block translate-y-full">E</span>
+                <span className="inline-block translate-y-full">E</span>
+                <span className="inline-block translate-y-full">D</span>
             </p>
         </div>
     );

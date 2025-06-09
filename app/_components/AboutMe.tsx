@@ -88,12 +88,12 @@ const AboutMe = () => {
                 <div className="grid md:grid-cols-12 mt-9">
                     <div className="md:col-span-5">
                         <p className="text-5xl slide-up-and-fade">
-                            Hi, I&apos;m Daniyal.
+                            Hi, I&apos;m Adil.
                         </p>
                         <div className="mt-6 slide-up-and-fade rounded" ref={imageRef}>
                             <Image 
                                 src="/profile.jpg" 
-                                alt="Daniyal Majeed" 
+                                alt="Adil Waheed" 
                                 width={300} 
                                 height={300}
                                 className="transition-all"
@@ -109,7 +109,7 @@ const AboutMe = () => {
                                 {SKILLS_SUMMARY.description}
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                With 7+ years of experience delivering SaaS products, I focus on creating secure architecture and intuitive interfaces that drive tangible business results while providing exceptional user experiences.
+                                With 4+ years of experience in MERN stack development, I excel at transforming Figma designs into responsive, intuitive user interfaces, developing secure APIs, and delivering scalable web applications that enhance user experience.
                             </p>
                         </div>
                     </div>

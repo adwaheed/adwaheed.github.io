@@ -1,19 +1,21 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'daniyal.majeed1003@gmail.com',
-
+    email: 'adwaheed1990@gmail.com',
+    phone: '+92 317 410 7466',
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Daniyal, I am reaching out to you because...',
+    emailBody: 'Hi Adil, I am reaching out to you because...',
 
-    linkedInProfile: 'https://www.linkedin.com/in/daniyal-majeed-b56b6311a/',
-    upworkProfile: 'https://www.upwork.com/freelancers/~0190b3fbb1ba6706f5',
+    linkedInProfile: 'https://www.linkedin.com/in/adwaheed1990/',
+    // upworkProfile: 'https://www.upwork.com/freelancers/adilwaheed',
+    githubProfile: 'https://adwaheed.github.io',
+    location: 'Lahore, Pakistan',
 };
 
 export const SOCIAL_LINKS = [
-    // { name: 'github', url: 'https://github.com/daniyal-majeed' },
+    { name: 'github', url: GENERAL_INFO.githubProfile },
     { name: 'linkedin', url: GENERAL_INFO.linkedInProfile },
-    { name: 'upwork', url: GENERAL_INFO.upworkProfile },
+    // { name: 'upwork', url: GENERAL_INFO.upworkProfile },
 ];
 
 export const MY_STACK = {
@@ -47,15 +49,11 @@ export const MY_STACK = {
             icon: '/logo/redux.png',
         },
         {
-            name: 'Framer Motion',
-            icon: '/logo/framer-motion.png',
+            name: 'Zustand',
+            icon: '/logo/zustand.svg',
         },
     ],
     backend: [
-        {
-            name: 'GoLang',
-            icon: '/logo/golang.png',
-        },
         {
             name: 'Node.js',
             icon: '/logo/node.png',
@@ -65,136 +63,30 @@ export const MY_STACK = {
             icon: '/logo/express.png',
         },
         {
-            name: 'NestJS',
-            icon: '/logo/nest.svg',
+            name: 'MongoDB',
+            icon: '/logo/mongodb.svg',
         },
         {
-            name: 'Django REST Framework',
-            icon: '/logo/django.png',
+            name: 'JWT',
+            icon: '/logo/jwt.png',
         },
         {
-            name: 'Yii2',
-            icon: '/logo/yii3.png',
+            name: 'Socket.io',
+            icon: '/logo/socketio.png',
         },
     ],
     database: [
         {
-            name: 'PostgreSQL',
-            icon: '/logo/postgreSQL.png',
+            name: 'MongoDB',
+            icon: '/logo/mongodb.svg',
         },
         {
             name: 'MySQL',
             icon: '/logo/mysql.svg',
         },
         {
-            name: 'MongoDB',
-            icon: '/logo/mongodb.svg',
-        },
-        {
-            name: 'Oracle',
-            icon: '/logo/oracle.png',
-        },
-    ],
-    cloud: [
-        {
-            name: 'AWS',
-            icon: '/logo/aws.png',
-        },
-        {
-            name: 'EC2',
-            icon: '/logo/aws.png',
-        },
-        {
-            name: 'S3',
-            icon: '/logo/aws.png',
-        },
-        {
-            name: 'Lambda',
-            icon: '/logo/awslambda.png',
-        },
-        {
-            name: 'DigitalOcean',
-            icon: '/logo/digitalOcean.png',
-        },
-    ],
-    devops: [
-        {
-            name: 'Docker',
-            icon: '/logo/docker.svg',
-        },
-        {
-            name: 'GitHub',
-            icon: '/logo/github.png',
-        },
-        {
-            name: 'Ansible',
-            icon: '/logo/ansible.png',
-        },
-        {
-            name: 'Jenkins',
-            icon: '/logo/jenkins.png',
-        },
-    ],
-    apis: [
-        {
-            name: 'Stripe',
-            icon: '/logo/stripe.png',
-        },
-        {
-            name: 'Persona',
-            icon: '/logo/persona.jpeg',
-        },
-        {
-            name: 'Twilio',
-            icon: '/logo/twilio.png',
-        },
-        {
-            name: 'OpenAI',
-            icon: '/logo/openai.png',
-        },
-        {
-            name: 'Alice',
-            icon: '/logo/alice.png',
-        },
-        {
-            name: 'Confirmo',
-            icon: '/logo/confirmo.png',
-        },
-    ],
-    ai: [
-        {
-            name: 'OpenAI',
-            icon: '/logo/openai.png',
-        },
-        {
-            name: 'ChatGPT',
-            icon: '/logo/chatgpt.png',
-        },
-        {
-            name: 'Cursor',
-            icon: '/logo/cursor.png',
-        },
-        {
-            name: 'Claude',
-            icon: '/logo/claude.webp',
-        },
-    ],
-    messaging: [
-        {
-            name: 'REST APIs',
-            icon: '/logo/rest.png',
-        },
-        {
-            name: 'Microservices',
-            icon: '/logo/micro.png',
-        },
-        {
-            name: 'RabbitMQ',
-            icon: '/logo/RabbitMQ.png',
-        },
-        {
-            name: 'Kafka',
-            icon: '/logo/kafka.png',
+            name: 'Firebase',
+            icon: '/logo/firebase.svg',
         },
     ],
     tools: [
@@ -203,18 +95,125 @@ export const MY_STACK = {
             icon: '/logo/git.png',
         },
         {
-            name: 'Jira',
-            icon: '/logo/jira.png',
+            name: 'Figma',
+            icon: '/logo/figma.png',
         },
         {
-            name: 'Confluence',
-            icon: '/logo/Confluence.png',
+            name: 'Postman',
+            icon: '/logo/postman.png',
         },
         {
-            name: 'Crystal Reports',
-            icon: '/logo/crystalReports.png',
+            name: 'VSCode',
+            icon: '/logo/vscode.png',
+        },
+        {
+            name: 'Cursor AI',
+            icon: '/logo/cursor.png',
         },
     ],
+    apis: [
+        {
+            name: 'REST APIs',
+            icon: '/logo/rest.png',
+        },
+        {
+            name: 'Third-party APIs',
+            icon: '/logo/api.png',
+        },
+        {
+            name: 'Chat GPT APIs',
+            icon: '/logo/openai.png',
+        },
+    ],
+};
+
+// Map of projects that have videos
+const projectsWithVideos = {
+    'tribl': ['/projects/tribl/videos/1.mov']
+};
+
+// Map of project image info with actual counts and extensions
+const projectImageInfo = {
+    'tribl': {
+        count: 0,
+        extension: 'png'
+    },
+    'azz-ai': {
+        count: 1,
+        extension: 'png'
+    },
+    'azz-appointments': {
+        count: 6,
+        extension: 'png'
+    },
+    '92-limo': {
+        count: 10,
+        extension: 'png'
+    },
+    'one-store': {
+        count: 3, 
+        extension: 'png'
+    },
+    'expenser-app': {
+        count: 1,
+        extension: 'png'
+    },
+    'publiccompare': {
+        count: 6, 
+        extension: 'png'
+    },
+    'dowell-classification': {
+        count: 1,
+        extension: 'png'
+    },
+    'dowell-email': {
+        count: 1,
+        extension: 'png'
+    },
+    'sky-iptv': {
+        count: 4,
+        extension: 'png'
+    },
+    'calculator': {
+        count: 1,
+        extension: 'png'
+    },
+    'drum-kit': {
+        count: 1,
+        extension: 'png'
+    }
+};
+
+// Helper function to get project media
+const getProjectMedia = (slug: string) => {
+    const projectInfo = projectImageInfo[slug as keyof typeof projectImageInfo] || {
+        count: 0,
+        extension: 'png'
+    };
+    
+    const hasVideos = projectsWithVideos[slug as keyof typeof projectsWithVideos];
+    
+    // Generate image paths based on the count
+    const images = [];
+    
+    // All extensions are now consistently .png
+    if (projectInfo.count > 0) {
+        for (let i = 1; i <= projectInfo.count; i++) {
+            images.push(`/projects/${slug}/images/${i}.png`);
+        }
+    } else {
+        // Try to add a default image for thumbnail
+        images.push(`/projects/${slug}/images/1.png`);
+    }
+    
+    // Default thumbnail is first image
+    const thumbnail = images[0];
+    
+    return {
+        videos: hasVideos || [],
+        thumbnail: thumbnail,
+        images: images
+    };
 };
 
 export const PROJECTS: IProject[] = [
@@ -222,303 +221,551 @@ export const PROJECTS: IProject[] = [
         title: 'Tribl.app',
         slug: 'tribl',
         liveUrl: 'https://tribl.app',
-        year: 2024,
+        year: 2023,
         description: `
-      A creator-first social platform where creativity meets community and passion fuels engagement. <br/> <br/>
+      A creator-first social platform where creativity meets community and passion fuels engagement. As a Full Stack MERN Developer (mainly frontend and backend API development), I contributed to building a scalable, production-ready MVP and implemented AI-powered content validation using OpenAI. <br/> <br/>
       
       Key Features:<br/>
       <ul>
         <li>👥 User Management: Secure authentication and profile management</li>
-        <li>💰 Payment Integration: Seamless monetization through Stripe</li>
-        <li>🔍 Identity Verification: User verification through Persona</li>
-        <li>🤖 AI Integration: Content validation using OpenAI</li>
-        <li>📱 Responsive Design: Custom UI from Figma designs</li>
+        <li>🤖 AI Integration: LLM-based content validation using OpenAI</li>
+        <li>📱 Responsive Design: Pixel-perfect custom UI from Figma designs</li>
       </ul><br/>
       
       Technical Highlights:
       <ul>
-        <li>Developed modular API architecture for scalability</li>
-        <li>Implemented secure payment workflows with Stripe</li>
-        <li>Created responsive UI with pixel-perfect implementation from Figma</li>
-        <li>Integrated OpenAI for LLM-based content validation</li>
+        <li>Developed modular API flows in Node.js</li>
+        <li>Built responsive frontend with Next.js and TypeScript based on Figma designs</li>
+        <li>Integrated OpenAI to enhance content validation workflows</li>
       </ul>
       `,
         role: `
-      Full Stack Developer - Team Lead <br/>
+      Full Stack Developer<br/>
       Responsibilities included:
       <ul>
-        <li>✅ Backend: Developed architecture in Node.js with modular API flows</li>
-        <li>🎨 Frontend: Created responsive UI with Next.js and TypeScript from Figma designs</li>
-        <li>🔒 Security: Implemented secure user and content workflows</li>
-        <li>🔌 Integrations: Connected Stripe (payments), Persona (identity), and OpenAI</li>
-        <li>🚀 Delivery: Produced a production-ready MVP with real-time features</li>
+        <li>✅ Backend: Developed modular API flows in Node.js</li>
+        <li>🎨 Frontend: Created responsive, pixel-perfect UI using Next.js and TypeScript</li>
+        <li>🤖 AI Integration: Implemented OpenAI-based content validation</li>
       </ul>
       `,
         techStack: [
             'Next.js',
             'Node.js',
             'TypeScript',
-            'Stripe',
             'OpenAI',
-            'Persona',
             'Tailwind CSS',
         ],
-        thumbnail: '/projects/tribl/videos/1.mov',
-        longThumbnail: '/projects/tribl/videos/1.mov',
-        images: [],
-        videos: [
-            '/projects/tribl/videos/1.mov',
-        ],
+        ...getProjectMedia('tribl'),
     },
     {
-        title: 'SaevolGo UCaaS Platform',
-        slug: 'saevolgo',
+        title: 'Azz AI - Chrome Extension',
+        slug: 'azz-ai',
+        liveUrl: 'https://chromewebstore.google.com/detail/azz-ai/mgcafekbmfbamkacdoehfpieihdbcdkm',
         year: 2023,
         description: `
-      A comprehensive UCaaS (Unified Communications as a Service) platform providing messaging and calling solutions. <br/> <br/>
+      Developed a Chrome Extension for Azz Medical Associates in collaboration with Prime Health Services. Built with React.js, the extension integrates TalkeHR and a third-party AI service to enhance employee productivity and streamline workflows. <br/> <br/>
       
       Key Features:<br/>
       <ul>
-        <li>📞 Call Center Configuration: Dynamic setup of call routing and features</li>
-        <li>📱 Mobile App Integration: Custom web tabs for in-app settings management</li>
-        <li>💬 Web Chat: Real-time messaging with call history</li>
-        <li>🔄 Role Management: Flexible user permissions system</li>
-        <li>🔌 Legacy Integration: Connection to existing call center infrastructure</li>
+        <li>🔄 Seamless integration with TalkeHR and AI service</li>
+        <li>📈 Boosts employee efficiency and productivity</li>
+        <li>💻 User-friendly interface built with React.js</li>
+        <li>⚡ Smooth performance within the Chrome browser environment</li>
       </ul><br/>
       
       Technical Highlights:
       <ul>
-        <li>Built microservices architecture for data provisioning</li>
-        <li>Created React-based admin portals for VoIP/SIP configuration</li>
-        <li>Implemented WebRTC for real-time communication</li>
-        <li>Developed UI-to-DB mappings for complex configuration settings</li>
+        <li>Developed the extension frontend using React.js</li>
+        <li>Integrated third-party AI and HR services via APIs</li>
+        <li>Ensured compatibility and smooth operation within Chrome</li>
+        <li>Focused on delivering a productive and intuitive user experience</li>
+      </ul>
+      `,
+        role: `
+      Frontend Developer <br/>
+      Responsibilities included:
+      <ul>
+        <li>🎨 Designed and developed the React.js-based Chrome Extension</li>
+        <li>🔌 Integrated TalkeHR and AI services for enhanced functionality</li>
+        <li>⚡ Optimized extension performance and usability</li>
+        <li>👥 Collaborated with stakeholders to meet business requirements</li>
+      </ul>
+      `,
+        techStack: [
+            'React.js',
+            'Chrome Extension APIs',
+            'JavaScript',
+            'CSS3',
+        ],
+        ...getProjectMedia('azz-ai'),
+    },
+    {
+        title: 'Azz Appointments',
+        slug: 'azz-appointments',
+        liveUrl: 'https://azzappointments.com/',
+        year: 2022,
+        description: `
+      Developed an appointment booking web application using Next.js and Redux for Azz Medical Associates in partnership with Prime Health Services. The app streamlines scheduling by integrating with TalkeHR, enabling management of multiple providers and real-time availability retrieval. <br/> <br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>📅 Efficient appointment booking system</li>
+        <li>👨‍⚕️ Integration with TalkeHR for provider management and availability</li>
+        <li>🔄 Real-time schedule updates and conflict management</li>
+        <li>📱 Responsive and user-friendly interface</li>
+      </ul><br/>
+      
+      Technical Highlights:
+      <ul>
+        <li>Built frontend with Next.js and Redux for state management</li>
+        <li>Integrated TalkeHR APIs for real-time provider availability</li>
+        <li>Designed responsive UI for desktop and mobile devices</li>
+        <li>Focused on scalability and ease of use</li>
       </ul>
       `,
         role: `
       Full Stack Developer <br/>
-      Over 5+ years at SaevolGo:
+      Responsibilities included:
       <ul>
-        <li>✅ Backend: Developed microservices in GoLang for data provisioning</li>
-        <li>🎨 Frontend: Built admin portals with React for call center configuration</li>
-        <li>📱 Mobile: Created web tabs for settings management in mobile apps</li>
-        <li>🔌 Integration: Built middleware to connect with legacy systems</li>
-        <li>📊 Architecture: Designed scalable data structure for complex SIP settings</li>
+        <li>🎨 Developed the appointment booking frontend with Next.js and Redux</li>
+        <li>🔌 Integrated TalkeHR APIs to manage providers and availability</li>
+        <li>📱 Ensured responsive design and seamless user experience</li>
+        <li>👥 Collaborated with backend and stakeholders for smooth delivery</li>
       </ul>
       `,
         techStack: [
-            'React',
-            'GoLang',
-            'PostgreSQL',
-            'WebRTC',
-            'Microservices',
+            'Next.js',
+            'React.js',
+            'Redux',
+            'JavaScript',
+            'CSS3',
         ],
-        thumbnail: '/projects/saevolgo/images/1.png',
-        longThumbnail: '/projects/saevolgo/images/1.png',
-        images: [
-            '/projects/saevolgo/images/1.png',
-            '/projects/saevolgo/images/2.png',
-            '/projects/saevolgo/images/3.png',
-            '/projects/saevolgo/images/4.png',
-            '/projects/saevolgo/images/5.png',
-            '/projects/saevolgo/images/6.png',
-            '/projects/saevolgo/images/7.png',
-            '/projects/saevolgo/images/8.png',
-            '/projects/saevolgo/images/9.png',
-            '/projects/saevolgo/images/10.png',
-            '/projects/saevolgo/images/11.png',
-            '/projects/saevolgo/images/12.png',
-        ],
+        ...getProjectMedia('azz-appointments'),
     },
     {
-        title: 'Inventory Management System',
-        slug: 'inventory-management',
-        year: 2020,
+        title: '92 Limo',
+        slug: '92-limo',
+        liveUrl: 'https://92limo.com/',
+        year: 2022,
         description: `
-      A desktop application developed to solve inventory and accounting management problems for point of sale and mobile accessories businesses. <br/> <br/>
+      A cab booking web application built with React. The platform enables users to easily search, book, and manage rides. It leverages React Router DOM for seamless client-side navigation and integrates a third-party SDK to handle the booking and payment flow. <br/> <br/>
       
       Key Features:<br/>
       <ul>
-        <li>📦 Inventory Tracking: Real-time stock management</li>
-        <li>💰 POS Integration: Sales processing and reporting</li>
-        <li>📊 Financial Reports: Comprehensive accounting tools</li>
-        <li>🔔 SMS Notifications: Customer and inventory alerts</li>
-        <li>⚙️ Customization: Business-specific configuration options</li>
+        <li>🚗 User-friendly cab booking interface</li>
+        <li>🔍 Real-time ride search and availability</li>
+        <li>🔄 Seamless navigation with React Router DOM</li>
+        <li>💳 Booking and payment flow powered by third-party SDK</li>
+        <li>📱 Responsive and mobile-friendly UI</li>
       </ul><br/>
       
       Technical Highlights:
       <ul>
-        <li>Developed a complete desktop solution with .NET Framework</li>
-        <li>Designed normalized database schema for inventory and accounting</li>
-        <li>Implemented robust transaction processing system</li>
-        <li>Created intuitive UI for non-technical users</li>
+        <li>Implemented smooth client-side routing with React Router DOM</li>
+        <li>Integrated external SDK for ride booking and payment workflows</li>
+        <li>Built responsive UI with React and modern CSS</li>
+        <li>Focused on performance optimization and user experience</li>
       </ul>
       `,
         role: `
-      Lead Developer <br/>
+      Frontend Developer <br/>
       Responsibilities included:
       <ul>
-        <li>✅ Backend: Database design and business logic implementation</li>
-        <li>🎨 Frontend: UI/UX design for the desktop application</li>
-        <li>📊 Reporting: Financial and inventory reporting system</li>
-        <li>🔌 Integration: SMS service integration for notifications</li>
+        <li>🎨 Developed core booking flows and integrated third-party SDK</li>
+        <li>🔄 Implemented navigation and state management with React Router DOM</li>
+        <li>📱 Built responsive, user-friendly UI for both desktop and mobile devices</li>
+        <li>⚡ Ensured cross-browser compatibility and optimized performance</li>
       </ul>
       `,
         techStack: [
-            '.NET Framework',
-            'MySQL',
-            'Database Design',
-            'Desktop Application',
+            'React.js',
+            'React Router DOM',
+            'HTML5',
+            'CSS3',
         ],
-        thumbnail: '/projects/ims/videos/IMS Working Demo.mp4',
-        longThumbnail: '/projects/ims/videos/IMS Working Demo.mp4',
-        images: [
-            '/projects/ims/images/1.png',
-        ],
-        videos: [
-            '/projects/ims/videos/IMS Working Demo.mp4',
-        ],
+        ...getProjectMedia('92-limo'),
     },
     {
-        title: 'JanahApp Web App',
-        slug: 'janahapp',
-        year: 2018,
+        title: 'Ecommerce Store - ONE Store',
+        slug: 'one-store',
+        liveUrl: 'https://nextjs13-ecommerce-deploy.vercel.app/',
+        year: 2021,
         description: `
-      A comprehensive travel planning web application built for a Saudi Arabian client. <br/> <br/>
+      An e-commerce web application built with Next.js, Tailwind CSS, and Redux Toolkit. The store dynamically displays products using the Fake Store API, providing users with a seamless shopping experience across devices. <br/> <br/>
       
       Key Features:<br/>
       <ul>
-        <li>🗺️ Interactive Trip Planning: Sequential flow for creating detailed itineraries</li>
-        <li>📍 Custom Map Integration: Pin placement for locations</li>
-        <li>👥 Social Features: Sharing, liking, and commenting on trip plans</li>
-        <li>🏙️ Location Database: Extensive collection of countries, cities, and points of interest</li>
-        <li>🌐 Multi-language Support: Full Arabic language integration</li>
+        <li>📦 Dynamic product listing using Fake Store API</li>
+        <li>🔍 Product detail pages with responsive design</li>
+        <li>🛒 Shopping cart functionality with state management via Redux Toolkit</li>
+        <li>⚡ Fast, optimized navigation with Next.js</li>
+        <li>📱 Mobile-friendly and accessible UI with Tailwind CSS</li>
       </ul><br/>
       
       Technical Highlights:
       <ul>
-        <li>Built with Yii2 PHP framework</li>
-        <li>Implemented custom UI with jQuery and Bootstrap</li>
-        <li>Created dynamic partial views for sequence-based trip planning</li>
-        <li>Designed responsive layout for all device sizes</li>
+        <li>Built dynamic product pages with server-side rendering and API integration</li>
+        <li>Implemented global state management with Redux Toolkit</li>
+        <li>Designed responsive, modern UI with Tailwind CSS</li>
+        <li>Optimized for performance and SEO using Next.js best practices</li>
       </ul>
       `,
         role: `
-      Web Developer <br/>
+      Full Stack Developer <br/>
       Responsibilities included:
       <ul>
-        <li>✅ Backend: API development and database design</li>
-        <li>🎨 Frontend: Implementation of custom modules and pages</li>
-        <li>📱 Responsive Design: Ensuring compatibility across devices</li>
-        <li>🔄 Feature Development: Building core functionality for trip planning</li>
+        <li>🎨 Developed the entire frontend using Next.js and Tailwind CSS</li>
+        <li>🔌 Integrated Fake Store API for dynamic product data</li>
+        <li>🛒 Implemented cart functionality and global state management with Redux Toolkit</li>
+        <li>📱 Ensured responsive design and cross-browser compatibility</li>
       </ul>
       `,
         techStack: [
-            'PHP',
-            'Yii2',
-            'jQuery',
+            'Next.js',
+            'Redux Toolkit',
+            'Tailwind CSS',
+            'JavaScript',
+        ],
+        ...getProjectMedia('one-store'),
+    },
+    {
+        title: 'Expenser App',
+        slug: 'expenser-app',
+        liveUrl: 'https://nextjs13-expenser-app.vercel.app/',
+        year: 2021,
+        description: `
+      An expense tracking web application built with Next.js and Firebase Firestore. The app allows users to manage their personal finances by adding, viewing, and deleting expenses in real time, with persistent cloud-based data storage. <br/> <br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>💰 Add, view, and delete expense items</li>
+        <li>🔄 Real-time updates with Firebase Firestore</li>
+        <li>☁️ Persistent cloud storage of user data</li>
+        <li>📱 Responsive design for desktop and mobile devices</li>
+        <li>💻 Simple and intuitive user interface</li>
+      </ul><br/>
+      
+      Technical Highlights:
+      <ul>
+        <li>Integrated Firebase Firestore for real-time data storage and retrieval</li>
+        <li>Implemented responsive UI with Next.js and modern CSS</li>
+        <li>Developed CRUD functionalities for managing expense data</li>
+        <li>Focused on delivering fast performance and an intuitive user experience</li>
+      </ul>
+      `,
+        role: `
+      Full Stack Developer <br/>
+      Responsibilities included:
+      <ul>
+        <li>🎨 Developed the full application with Next.js and Firebase Firestore</li>
+        <li>🔄 Implemented real-time data handling and storage with Firestore</li>
+        <li>📱 Built responsive and accessible UI for various screen sizes</li>
+        <li>⚡ Ensured seamless user interactions for adding, reading, and deleting expense items</li>
+      </ul>
+      `,
+        techStack: [
+            'Next.js',
+            'Firebase Firestore',
+            'JavaScript',
+            'CSS3',
+        ],
+        ...getProjectMedia('expenser-app'),
+    },
+    {
+        title: 'PublicCompare - HomePage',
+        slug: 'publiccompare',
+        liveUrl: 'http://publiccompare.com/',
+        year: 2021,
+        description: `
+      Developed the homepage for the PublicCompare website using React.js, HTML, CSS, and Tailwind CSS. The page features a responsive design and integrates multiple APIs to deliver dynamic content and enhance user interaction. <br/> <br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>🎨 Responsive and modern homepage design</li>
+        <li>🔄 Dynamic content rendering through integrated APIs</li>
+        <li>💻 Clean and accessible UI built with React and Tailwind CSS</li>
+        <li>⚡ Optimized performance for desktop and mobile devices</li>
+      </ul><br/>
+      
+      Technical Highlights:
+      <ul>
+        <li>Built responsive layout with Tailwind CSS and HTML</li>
+        <li>Implemented dynamic data display using React.js and API integrations</li>
+        <li>Focused on delivering fast page load times and smooth user experience</li>
+        <li>Ensured cross-browser compatibility and mobile optimization</li>
+      </ul>
+      `,
+        role: `
+      Frontend Developer <br/>
+      Responsibilities included:
+      <ul>
+        <li>🎨 Developed the homepage using React.js and Tailwind CSS</li>
+        <li>🔌 Integrated multiple APIs to enable dynamic content</li>
+        <li>📱 Built responsive UI ensuring consistent performance across devices</li>
+        <li>⚡ Optimized the page for accessibility and performance</li>
+      </ul>
+      `,
+        techStack: [
+            'React.js',
+            'Tailwind CSS',
+            'HTML5',
+            'CSS3',
+            'API Integration'
+        ],
+        ...getProjectMedia('publiccompare'),
+    },
+    {
+        title: 'Dowell Classification API',
+        slug: 'dowell-classification',
+        liveUrl: 'https://ll08-mathematicalmodelling-dowell.github.io/100033-dowellclassification-frontend-v2/',
+        year: 2021,
+        description: `
+      Developed the frontend interface for Dowell's Email Classification API, primarily designed for testing and demonstration purposes. Built with React.js, HTML, CSS, and Tailwind CSS, the application uses Axios to facilitate API communication and display classification results dynamically. <br/> <br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>🧪 User-friendly interface to test Email Classification API</li>
+        <li>🔄 Real-time API communication using Axios</li>
+        <li>💻 Clean and responsive UI built with React.js and Tailwind CSS</li>
+        <li>📊 Supports dynamic display of classification results</li>
+      </ul><br/>
+      
+      Technical Highlights:
+      <ul>
+        <li>Built responsive and accessible UI with React.js, Tailwind CSS, HTML, and CSS</li>
+        <li>Integrated Axios for efficient API request/response handling</li>
+        <li>Focused on ease of use for testing API endpoints</li>
+        <li>Optimized interface for performance and usability</li>
+      </ul>
+      `,
+        role: `
+      Frontend Developer <br/>
+      Responsibilities included:
+      <ul>
+        <li>🎨 Designed and developed the frontend for Dowell Classification API</li>
+        <li>🔌 Integrated API calls using Axios for real-time classification testing</li>
+        <li>💻 Built a responsive and intuitive UI with React.js and Tailwind CSS</li>
+        <li>⚡ Ensured a smooth user experience across different devices and browsers</li>
+      </ul>
+      `,
+        techStack: [
+            'React.js',
+            'Tailwind CSS',
+            'HTML5',
+            'CSS3',
+            'Axios'
+        ],
+        ...getProjectMedia('dowell-classification'),
+    },
+    {
+        title: 'Dowell Email API Testing',
+        slug: 'dowell-email',
+        liveUrl: 'https://frontend-dowell-email-api.netlify.app/',
+        year: 2021,
+        description: `
+      Developed the frontend interface for Dowell's Email API, focused on enabling efficient testing and validation of API responses. The application is built with React.js, HTML, CSS, and Tailwind CSS, with Axios used to handle API requests and responses dynamically. <br/> <br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>🧪 Interactive frontend for testing the Email API</li>
+        <li>🔄 Real-time API communication using Axios</li>
+        <li>💻 Responsive, clean UI built with React.js and Tailwind CSS</li>
+        <li>📊 Dynamic display of API responses for validation and testing</li>
+      </ul><br/>
+      
+      Technical Highlights:
+      <ul>
+        <li>Built responsive UI using React.js, Tailwind CSS, HTML, and CSS</li>
+        <li>Integrated Axios to handle API requests and display responses dynamically</li>
+        <li>Designed the interface for easy and efficient API testing</li>
+        <li>Ensured cross-browser compatibility and responsive performance</li>
+      </ul>
+      `,
+        role: `
+      Frontend Developer <br/>
+      Responsibilities included:
+      <ul>
+        <li>🎨 Designed and developed the frontend for Dowell's Email API testing</li>
+        <li>🔌 Integrated Axios for real-time API request/response handling</li>
+        <li>💻 Created a responsive and user-friendly UI using React.js and Tailwind CSS</li>
+        <li>⚡ Focused on delivering an intuitive experience for API testers and developers</li>
+      </ul>
+      `,
+        techStack: [
+            'React.js',
+            'Tailwind CSS',
+            'HTML5',
+            'CSS3',
+            'Axios'
+        ],
+        ...getProjectMedia('dowell-email'),
+    },
+    {
+        title: 'SKY IPTV',
+        slug: 'sky-iptv',
+        liveUrl: 'https://sky-iptv.netlify.app/',
+        year: 2021,
+        description: `
+      Developed the full website for SKY IPTV, including hosting setup and domain procurement. The site features dynamic content powered by several API integrations and is built using HTML, CSS, Bootstrap, and JavaScript. <br/> <br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>🌐 Complete website development and deployment</li>
+        <li>📱 Responsive design with Bootstrap</li>
+        <li>🔄 Dynamic content integration via multiple APIs</li>
+        <li>🌍 Hosting and domain management</li>
+      </ul><br/>
+      
+      Technical Highlights:
+      <ul>
+        <li>Built responsive UI using HTML, CSS, and Bootstrap</li>
+        <li>Integrated various APIs to deliver dynamic content</li>
+        <li>Managed website deployment, hosting, and domain setup</li>
+        <li>Ensured cross-browser compatibility and mobile responsiveness</li>
+      </ul>
+      `,
+        role: `
+      Full Stack Developer <br/>
+      Responsibilities included:
+      <ul>
+        <li>🎨 Designed and developed the entire website for SKY IPTV</li>
+        <li>🔌 Integrated multiple APIs to enhance functionality</li>
+        <li>🌐 Handled hosting setup and domain registration</li>
+        <li>📱 Built responsive UI and optimized site performance</li>
+      </ul>
+      `,
+        techStack: [
+            'HTML5',
+            'CSS3',
             'Bootstrap',
-            'Microsoft SQL Server',
+            'JavaScript',
+            'API Integration'
         ],
-        thumbnail: '/projects/janahapp/images/1.png',
-        longThumbnail: '/projects/janahapp/images/1.png',
-        images: [
-            '/projects/janahapp/images/1.png',
-        ],
+        ...getProjectMedia('sky-iptv'),
     },
     {
-        title: 'FaithIQ Web App',
-        slug: 'faithiq',
-        year: 2018,
+        title: 'Calculator App',
+        slug: 'calculator',
+        liveUrl: 'https://adwaheed1990-simple-calculator.netlify.app/',
+        year: 2021,
         description: `
-      A content-driven platform for religious education and Q&A. <br/> <br/>
+      Developed a simple calculator application using React.js, providing essential arithmetic operations including addition, subtraction, multiplication, and division. The app offers a clean and intuitive interface for quick and easy calculations. <br/> <br/>
       
       Key Features:<br/>
       <ul>
-        <li>🎥 Video Content Library: Organized collection of educational videos</li>
-        <li>❓ Question Submission: User-generated questions with voting system</li>
-        <li>🔔 Notification System: Alerts for new content addressing user questions</li>
-        <li>👤 User Management: Profile creation, commenting and interaction</li>
-        <li>📱 Mobile Integration: API support for mobile applications</li>
+        <li>🧮 Basic arithmetic operations: add, subtract, multiply, divide</li>
+        <li>💻 User-friendly and minimalistic interface</li>
+        <li>📱 Responsive design for desktop and mobile devices</li>
+        <li>⚡ Fast and reliable performance</li>
       </ul><br/>
       
       Technical Highlights:
       <ul>
-        <li>Developed with Yii2 PHP framework</li>
-        <li>Designed normalized database schema for content management</li>
-        <li>Built RESTful APIs for mobile client integration</li>
-        <li>Implemented social features with comment threads and notifications</li>
+        <li>Built with React.js for interactive UI</li>
+        <li>Implemented clean state management for calculation logic</li>
+        <li>Ensured responsive design and accessibility</li>
+        <li>Focused on simplicity and usability</li>
       </ul>
       `,
         role: `
-      Web Developer <br/>
+      Frontend Developer <br/>
       Responsibilities included:
       <ul>
-        <li>✅ Backend: Database design and API development</li>
-        <li>🎨 Frontend: Implementation of user interface</li>
-        <li>📱 Mobile Integration: Building APIs for mobile clients</li>
-        <li>👤 User Experience: Creating interactive features for community engagement</li>
+        <li>🎨 Developed the entire app using React.js</li>
+        <li>💻 Designed a clean and responsive UI</li>
+        <li>🧮 Implemented arithmetic logic and state management</li>
+        <li>⚡ Tested and optimized for performance and usability</li>
       </ul>
       `,
         techStack: [
-            'PHP',
-            'Yii2',
-            'MySQL',
-            'Bootstrap',
-            'jQuery',
+            'React.js',
+            'JavaScript',
+            'CSS3',
+            'HTML5'
         ],
-        thumbnail: '/projects/faithiq/images/1.png',
-        longThumbnail: '/projects/faithiq/images/1.png',
-        images: [
-            '/projects/faithiq/images/1.png',
+        ...getProjectMedia('calculator'),
+    },
+    {
+        title: 'Drum Kit App',
+        slug: 'drum-kit',
+        liveUrl: 'https://adilwaheed1990-drum-kit.netlify.app/',
+        year: 2021,
+        description: `
+      Created an interactive Drum Kit web app that allows users to play drum sounds by clicking buttons or pressing keyboard keys. Built with HTML, CSS, and JavaScript, the app provides an engaging and responsive user experience. <br/> <br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>🥁 Play drum sounds via mouse clicks or keyboard key presses</li>
+        <li>💻 Interactive and responsive design</li>
+        <li>👌 Simple and intuitive user interface</li>
+        <li>⚡ Fast audio playback for real-time interaction</li>
+      </ul><br/>
+      
+      Technical Highlights:
+      <ul>
+        <li>Developed with vanilla JavaScript for audio control and event handling</li>
+        <li>Styled using CSS for a clean and responsive layout</li>
+        <li>Ensured smooth and immediate response to user input</li>
+        <li>Compatible across modern browsers</li>
+      </ul>
+      `,
+        role: `
+      Frontend Developer <br/>
+      Responsibilities included:
+      <ul>
+        <li>🎨 Built the interactive Drum Kit using HTML, CSS, and JavaScript</li>
+        <li>🔄 Implemented event listeners for both clicks and key presses</li>
+        <li>💻 Designed a responsive and accessible UI</li>
+        <li>⚡ Tested for performance and cross-browser compatibility</li>
+      </ul>
+      `,
+        techStack: [
+            'HTML5',
+            'CSS3',
+            'JavaScript'
         ],
+        ...getProjectMedia('drum-kit'),
     },
 ];
 
 export const EXPERIENCES = [
     {
-        company: 'Tribl',
-        position: 'Full Stack Developer (Remote)',
-        duration: 'October 2023 - Present',
+        company: 'Devopsifi',
+        position: 'Full-Stack MERN Developer - Remote',
+        duration: '09/2023 - Present',
         description:
-            'Created a complete social platform with custom Figma designs and third-party integrations including Stripe, Persona, and OpenAI. Built modern architecture with Node.js backend and Next.js frontend.',
+            'Developed and maintained dynamic web applications utilizing the MERN stack (MongoDB, Express.js, React.js, Node.js) with TypeScript. Transformed Figma UI/UX designs into responsive interfaces and engineered secure RESTful APIs with JWT authentication.',
     },
     {
-        company: 'SaevolGo',
-        position: 'Senior Software Engineer (Remote)',
-        duration: 'December 2020 - March 2025',
+        company: 'Prime Health Services Pakistan',
+        position: 'Frontend Developer (React.js & Next.js)',
+        duration: '07/2022 - 08/2023',
         description:
-            'Worked as team lead building end-to-end solutions for clients. Developed admin portals using React.js for call center configurations and backend microservices in GoLang for data provisioning.',
+            'Developed a Chrome Extension using React.js for Azz Medical Associates. Built a responsive Appointment Booking Web Application using Next.js, integrating with TalkeHR and external APIs.',
     },
     {
-        company: 'NetSol',
-        position: 'Software Engineer',
-        duration: 'October 2019 - December 2020',
+        company: 'Dowell Research UK Limited',
+        position: 'Frontend Developer (React.js & Next.js) - Remote',
+        duration: '11/2021 - 06/2022',
         description:
-            'Worked on the legacy LeaseSoft product built on .NET and Oracle, handling complex financial software systems and database management.',
+            'Developed dynamic user interfaces using React.js and Next.js. Integrated multiple third-party and internal APIs using Axios and styled responsive UI components with Tailwind CSS.',
     },
     {
-        company: 'Next Bridge',
-        position: 'Data Scientist and Machine Learning Engineer',
-        duration: 'November 2018 - January 2019',
+        company: 'Freelancing',
+        position: 'Frontend Developer',
+        duration: '04/2021 - 10/2021',
         description:
-            'Applied data science and machine learning techniques to solve real-world problems, utilizing statistical analysis and predictive modeling.',
-    },
-    {
-        company: 'Granjur Technologies',
-        position: 'Web Developer',
-        duration: 'August 2018 - November 2018',
-        description:
-            'Developed web applications using Yii2 PHP framework, building modules and pages for client websites including JanahApp and FaithIQ.',
+            'Designed and developed custom, responsive user interfaces for multiple clients using React.js, JavaScript, and Next.js. Integrated RESTful APIs and Firebase services for real-time data handling and authentication.',
     },
 ];
 
 export const EDUCATION = {
-    university: 'Central University of Punjab',
-    degree: 'Bachelor of Applied Science (B.A.Sc.), Computer Science',
-    duration: '2014-2018',
+    university: 'University of the Punjab',
+    degree: 'Bachelor of Arts',
+    duration: '2013-2015',
 };
 
 export const SKILLS_SUMMARY = {
-    title: "Full-Stack Engineer with expertise in GoLang, Node.js, React, and Next.js",
-    description: "I specialize in crafting microservices architectures, API integrations, and UI-driven database workflows for social media and telecom SaaS platforms. My focus is on delivering performant backends and intuitive admin interfaces that are both scalable and secure."
+    title: "Full-Stack JavaScript Developer specializing in MERN Stack",
+    description: "With over 4 years of professional experience, I excel at transforming Figma designs into responsive, intuitive user interfaces, fixing bugs, building new modules, and enhancing overall user experience. I deliver scalable, high-performance web applications while collaborating closely with design teams."
 };

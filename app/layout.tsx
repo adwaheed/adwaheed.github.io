@@ -27,8 +27,8 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata: Metadata = {
-    title: 'Portfolio - Daniyal Majeed',
-    description: 'Personal portfolio of Daniyal Majeed',
+    title: 'Adil Waheed\'s Portfolio',
+    description: 'Full-Stack JavaScript Developer specializing in MERN Stack',
 };
 
 export default function RootLayout({

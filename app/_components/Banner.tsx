@@ -43,20 +43,20 @@ const Banner = () => {
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
                         <span className="text-primary">FULL-STACK</span>
-                        <br /> <span className="ml-4">ENGINEER</span>
+                        <br /> <span className="ml-4">MERN ENGINEER</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
                         Hi! I&apos;m{' '}
                         <span className="font-medium text-foreground">
-                            Daniyal Majeed
+                            Adil Waheed
                         </span>
-                        . A Full-Stack Engineer with 7+ years of experience in GoLang, Node.js, React, and Next.js, delivering scalable SaaS products with secure backend architecture and intuitive frontend interfaces.
+                        . A Full-Stack JavaScript Developer with 4+ years of experience in MERN Stack (MongoDB, Express.js, React.js, Node.js), specializing in building responsive user interfaces, developing secure APIs, and implementing modern web applications.
                     </p>
                     <Button
                         as="link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={GENERAL_INFO.upworkProfile}
+                        href={GENERAL_INFO.linkedInProfile}
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
@@ -67,7 +67,7 @@ const Banner = () => {
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            7+
+                            4+
                         </h5>
                         <p className="text-muted-foreground">
                             Years of Experience
@@ -75,7 +75,7 @@ const Banner = () => {
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            10+
+                            6+
                         </h5>
                         <p className="text-muted-foreground">
                             Completed Projects
@@ -83,7 +83,7 @@ const Banner = () => {
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            15K+
+                            8K+
                         </h5>
                         <p className="text-muted-foreground">Hours Worked</p>
                     </div>

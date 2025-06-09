@@ -21,7 +21,7 @@ const Footer = async () => {
                     <p
                         className="leading-none text-muted-foreground hover:text-white"
                     >
-                        &copy; {new Date().getFullYear()} Daniyal Majeed
+                        &copy; {new Date().getFullYear()} Adil Waheed
                         
                     </p>
 

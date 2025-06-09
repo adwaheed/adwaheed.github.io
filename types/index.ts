@@ -22,7 +22,6 @@ export interface IProject {
     role: string;
     techStack: string[];
     thumbnail: string;
-    longThumbnail: string;
     images: string[];
     videos?: string[];
     slug: string;
