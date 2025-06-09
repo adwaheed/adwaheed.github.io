@@ -35,7 +35,7 @@ const Skills = () => {
                 stagger: 0.4,
             });
         },
-        { scope: containerRef, dependencies: [] },
+        { scope: containerRef },
     );
 
     useGSAP(
@@ -54,7 +54,7 @@ const Skills = () => {
                 opacity: 0,
             });
         },
-        { scope: containerRef, dependencies: [] },
+        { scope: containerRef },
     );
 
     return (
@@ -99,4 +99,4 @@ const Skills = () => {
     );
 };
 
-export default React.memo(Skills);
+export default Skills;
