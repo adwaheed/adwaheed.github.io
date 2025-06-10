@@ -5,7 +5,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Image from 'next/image';
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -63,7 +63,7 @@ const Skills = () => {
                 <SectionTitle title="My Stack" />
 
                 <div className="space-y-20">
-                    {Object.entries(MY_STACK).map(([key, value]) => (
+                    {Object.entries(MY_STACK)?.map(([key, value]) => (
                         <div className="group grid sm:grid-cols-12" key={key}>
                             <div className="sm:col-span-5">
                                 <p className="group-hover:text-primary transition-all duration-300 slide-up text-5xl font-anton leading-none text-muted-foreground uppercase font-bold">
