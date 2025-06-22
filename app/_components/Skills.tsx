@@ -63,36 +63,150 @@ const Skills = () => {
                 <SectionTitle title="My Stack" />
 
                 <div className="space-y-20">
-                    {Object.entries(MY_STACK)?.map(([key, value]) => (
-                        <div className="group grid sm:grid-cols-12" key={key}>
-                            <div className="sm:col-span-5">
-                                <p className="group-hover:text-primary transition-all duration-300 slide-up text-5xl font-anton leading-none text-muted-foreground uppercase font-bold">
-                                    {key}
-                                </p>
-                            </div>
-                            <div className="sm:col-span-7 flex gap-x-11 gap-y-9 flex-wrap">
-                                {value.map((item) => (
-                                    <div
-                                        className="slide-up flex gap-3.5 items-center leading-none"
-                                        key={item.name}
-                                    >
-                                        <div>
-                                            <Image
-                                                src={item.icon}
-                                                alt={item.name}
-                                                width="40"
-                                                height="40"
-                                                className="max-h-10 rounded"
-                                            />
-                                        </div>
-                                        <span className="text-2xl capitalize">
-                                            {item.name}
-                                        </span>
-                                    </div>
-                                ))}
-                            </div>
+                    <div className="group grid sm:grid-cols-12">
+                        <div className="sm:col-span-5">
+                            <p className="group-hover:text-primary transition-all duration-300 slide-up text-5xl font-anton leading-none text-muted-foreground uppercase font-bold">
+                                frontend
+                            </p>
                         </div>
-                    ))}
+                        <div className="sm:col-span-7 flex gap-x-11 gap-y-9 flex-wrap">
+                            {MY_STACK.frontend.map((item) => (
+                                <div
+                                    className="slide-up flex gap-3.5 items-center leading-none"
+                                    key={item.name}
+                                >
+                                    <div>
+                                        <Image
+                                            src={item.icon}
+                                            alt={item.name}
+                                            width="40"
+                                            height="40"
+                                            className="max-h-10 rounded"
+                                        />
+                                    </div>
+                                    <span className="text-2xl capitalize">
+                                        {item.name}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="group grid sm:grid-cols-12">
+                        <div className="sm:col-span-5">
+                            <p className="group-hover:text-primary transition-all duration-300 slide-up text-5xl font-anton leading-none text-muted-foreground uppercase font-bold">
+                                backend
+                            </p>
+                        </div>
+                        <div className="sm:col-span-7 flex gap-x-11 gap-y-9 flex-wrap">
+                            {MY_STACK.backend.map((item) => (
+                                <div
+                                    className="slide-up flex gap-3.5 items-center leading-none"
+                                    key={item.name}
+                                >
+                                    <div>
+                                        <Image
+                                            src={item.icon}
+                                            alt={item.name}
+                                            width="40"
+                                            height="40"
+                                            className="max-h-10 rounded"
+                                        />
+                                    </div>
+                                    <span className="text-2xl capitalize">
+                                        {item.name}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="group grid sm:grid-cols-12">
+                        <div className="sm:col-span-5">
+                            <p className="group-hover:text-primary transition-all duration-300 slide-up text-5xl font-anton leading-none text-muted-foreground uppercase font-bold">
+                                database
+                            </p>
+                        </div>
+                        <div className="sm:col-span-7 flex gap-x-11 gap-y-9 flex-wrap">
+                            {MY_STACK.database.map((item) => (
+                                <div
+                                    className="slide-up flex gap-3.5 items-center leading-none"
+                                    key={item.name}
+                                >
+                                    <div>
+                                        <Image
+                                            src={item.icon}
+                                            alt={item.name}
+                                            width="40"
+                                            height="40"
+                                            className="max-h-10 rounded"
+                                        />
+                                    </div>
+                                    <span className="text-2xl capitalize">
+                                        {item.name}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="group grid sm:grid-cols-12">
+                        <div className="sm:col-span-5">
+                            <p className="group-hover:text-primary transition-all duration-300 slide-up text-5xl font-anton leading-none text-muted-foreground uppercase font-bold">
+                                tools
+                            </p>
+                        </div>
+                        <div className="sm:col-span-7 flex gap-x-11 gap-y-9 flex-wrap">
+                            {MY_STACK.tools.map((item) => (
+                                <div
+                                    className="slide-up flex gap-3.5 items-center leading-none"
+                                    key={item.name}
+                                >
+                                    <div>
+                                        <Image
+                                            src={item.icon}
+                                            alt={item.name}
+                                            width="40"
+                                            height="40"
+                                            className="max-h-10 rounded"
+                                        />
+                                    </div>
+                                    <span className="text-2xl capitalize">
+                                        {item.name}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="group grid sm:grid-cols-12">
+                        <div className="sm:col-span-5">
+                            <p className="group-hover:text-primary transition-all duration-300 slide-up text-5xl font-anton leading-none text-muted-foreground uppercase font-bold">
+                                apis
+                            </p>
+                        </div>
+                        <div className="sm:col-span-7 flex gap-x-11 gap-y-9 flex-wrap">
+                            {MY_STACK.apis.map((item) => (
+                                <div
+                                    className="slide-up flex gap-3.5 items-center leading-none"
+                                    key={item.name}
+                                >
+                                    <div>
+                                        <Image
+                                            src={item.icon}
+                                            alt={item.name}
+                                            width="40"
+                                            height="40"
+                                            className="max-h-10 rounded"
+                                        />
+                                    </div>
+                                    <span className="text-2xl capitalize">
+                                        {item.name}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
