@@ -1,0 +1,124 @@
+# Adil Waheed - Full-Stack MERN Developer Portfolio
+
+> Full-Stack MERN Developer (FE Focused) | Frontend Developer | React.js Developer | Next.js Developer | WordPress Developer | AI Automation Specialist
+
+## About
+
+Full-Stack MERN Developer (FE Focused) with 5+ years of experience building scalable web applications using React.js, Next.js, TypeScript, Node.js, Express.js, and MongoDB, with strong frontend expertise. 
+
+### Specializations:
+- **Frontend Development**: React.js, Next.js, TypeScript, JavaScript
+- **Full-Stack MERN**: MongoDB, Express.js, React.js, Node.js
+- **WordPress Development**: Custom themes, Elementor, plugin integration
+- **AI Automation**: N8N workflows, OpenAI API integration (Entry-Mid Level)
+
+Skilled in developing responsive UI from Figma designs, building secure RESTful APIs, implementing JWT authentication, and integrating real-time features using Socket.io. Experienced in state management (Redux, Zustand), API integration, performance optimization, Chrome extensions, and WordPress development (Elementor). Familiar with CI/CD, Docker, and AI/N8N automation. Focused on clean code, scalable architecture, and high-performance user experiences.
+
+## Contact
+
+- Email: adwaheed1990@gmail.com
+- Phone: +923174107466
+- Location: Lahore, Pakistan
+- LinkedIn: https://www.linkedin.com/in/adwaheed1990/
+- GitHub: https://adwaheed.github.io
+- Portfolio: https://adwaheed.github.io
+
+## Technical Skills
+
+### Frontend
+- React.js, Next.js, TypeScript, JavaScript
+- HTML5, CSS3, Tailwind CSS, Bootstrap
+- Redux, Zustand, Redux Toolkit
+- Framer Motion, GSAP
+- Material-UI
+
+### Backend
+- Node.js, Express.js
+- MongoDB, MySQL, PostgreSQL
+- JWT Authentication
+- Socket.io, WebSocket
+- RESTful APIs
+
+### CMS & Tools
+- WordPress, Elementor
+- Docker, Git, GitHub
+- Figma, VSCode, Cursor AI
+- ChatGPT, Claude, Gemini
+- N8N Automation, OpenAI API
+
+## Featured Projects
+
+### ExactFlow App (2025)
+A comprehensive business management platform built with Next.js, featuring multiple modules for HR, finance, sales, and operations.
+- URL: https://app.exactflow.pl/
+- Tech: Next.js, TypeScript, Tailwind CSS, Material-UI, Redux, Zustand, Socket.io, N8N
+- Role: Full Stack MERN Developer - Led development and maintenance of PeopleForce module
+
+### Tribl.app (2023)
+A creator-first social platform where creativity meets community and passion fuels engagement.
+- URL: https://tribl.app
+- Tech: Next.js, Node.js, TypeScript, OpenAI, Tailwind CSS
+- Role: Full Stack Developer - Implemented AI-powered content validation using OpenAI
+
+### Azz AI - Chrome Extension (2023)
+Chrome Extension for Azz Medical Associates integrating TalkeHR and AI service to enhance employee productivity.
+- URL: https://chromewebstore.google.com/detail/azz-ai/mgcafekbmfbamkacdoehfpieihdbcdkm
+- Tech: React.js, Chrome Extension APIs, JavaScript
+- Role: Frontend Developer
+
+### Azz Appointments (2022)
+Appointment booking web application for Azz Medical Associates with TalkeHR integration.
+- URL: https://azzappointments.com/
+- Tech: Next.js, React.js, Redux, JavaScript
+- Role: Full Stack Developer
+
+### 92 Limo (2022)
+Cab booking web application with real-time ride search and booking capabilities.
+- URL: https://92limo.com/
+- Tech: React.js, React Router DOM, HTML5, CSS3
+- Role: Frontend Developer
+
+## Work Experience
+
+### Exact Solution Electronics (04/2025 - Present)
+Full-Stack MERN Developer (Frontend-Focused) - Remote
+- Developed modern, scalable web applications using Next.js, React.js, Node.js, Express.js, and MongoDB
+- Built high-performance dashboards and responsive user interfaces with optimized architecture
+- Implemented real-time features using WebSocket and Socket.io
+- Led development and maintenance of the PeopleForce module
+- Conducted code reviews and mentored junior developers
+- Implemented N8N automation workflows
+
+### Devopsifi (09/2023 - 04/2025)
+Full-Stack MERN Developer (Frontend-Focused) - Remote
+- Developed and maintained full-stack MERN applications
+- Converted Figma UI/UX designs into responsive interfaces
+- Built secure RESTful APIs with JWT authentication
+- Implemented real-time features using Socket.io
+- Optimized MongoDB schemas and queries
+
+### Prime Health Services Pakistan (07/2022 - 08/2023)
+Frontend Developer (React.js & Next.js) - On-Site
+- Developed Chrome Extension using React.js
+- Built responsive appointment booking system using Next.js
+- Collaborated with backend teams to optimize data flow
+
+### Dowell Research UK Limited (11/2021 - 06/2022)
+Frontend Developer (React.js & Next.js) - Remote
+- Developed dynamic user interfaces using React.js and Next.js
+- Integrated internal and third-party APIs using Axios
+- Built responsive UI components using Tailwind CSS
+
+## Education
+
+Bachelor of Arts - BA
+University of the Punjab, Lahore, Pakistan (01/2014 - 12/2015)
+
+## Certifications
+
+- WordPress Certification - Udemy (08/2024 - Present)
+- React Certification - Meta (Coursera) (08/2023 - Present)
+
+---
+
+This portfolio showcases my expertise in full-stack MERN development with a strong focus on frontend technologies. I specialize in building scalable, performant web applications with modern UI/UX design, real-time features, and seamless API integrations.

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adil Waheed - Full-Stack MERN Developer | Frontend Developer | React.js | Next.js | WordPress | AI Automation</title>
+    <link>https://adwaheed.github.io</link>
+    <description>Full-Stack MERN Developer (FE Focused) | Frontend Developer | React.js Developer | Next.js Developer | WordPress Developer | AI Automation Specialist with 5+ years of experience building scalable web applications using React.js, Next.js, TypeScript, Node.js, Express.js, and MongoDB</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2026 14:25:53 GMT</lastBuildDate>
+    <atom:link href="https://adwaheed.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <managingEditor>adwaheed1990@gmail.com (Adil Waheed)</managingEditor>
+    <webMaster>adwaheed1990@gmail.com (Adil Waheed)</webMaster>
+    <copyright>Copyright 2026 Adil Waheed. All rights reserved.</copyright>
+    <category>Web Development</category>
+    <category>Full-Stack Development</category>
+    <category>MERN Stack</category>
+    <category>Frontend Development</category>
+    <category>React.js Development</category>
+    <category>Next.js Development</category>
+    <category>WordPress Development</category>
+    <category>AI Automation</category>
+    <category>N8N Automation</category>
+    <image>
+      <url>https://adwaheed.github.io/profile.jpg</url>
+      <title>Adil Waheed - Full-Stack MERN Developer</title>
+      <link>https://adwaheed.github.io</link>
+    </image>
+    
+    <item>
+      <title>ExactFlow App</title>
+      <link>https://adwaheed.github.io/projects/exactflow</link>
+      <guid>https://adwaheed.github.io/projects/exactflow</guid>
+      <pubDate>Tue, 31 Dec 2024 19:00:00 GMT</pubDate>
+      <description><![CDATA[A comprehensive business management platform built with Next.js, featuring multiple modules for HR, finance, sales, and operations. As a Full Stack MERN Developer, I contributed to building scalable features and maintaining the PeopleForce module. Key Features: 👥 PeopleForce Module: HR management, ...]]></description>
+      <category>Web Development</category>
+      <category>Next.js</category>
+      <category>TypeScript</category>
+      <category>Tailwind CSS</category>
+      <category>Material-UI</category>
+      <category>Redux</category>
+      <category>Zustand</category>
+      <category>Socket.io</category>
+      <category>N8N</category>
+    </item>
+    <item>
+      <title>ExactFlow Website</title>
+      <link>https://adwaheed.github.io/projects/exactflowcom</link>
+      <guid>https://adwaheed.github.io/projects/exactflowcom</guid>
+      <pubDate>Tue, 31 Dec 2024 19:00:00 GMT</pubDate>
+      <description><![CDATA[The official marketing website for ExactFlow, showcasing the platform's features and capabilities. Built with Next.js for optimal performance and SEO. Key Features: 🎨 Modern, professional design with smooth animations 📱 Fully responsive across all devices ⚡ Optimized for performance and SEO 🔄 Dyn...]]></description>
+      <category>Web Development</category>
+      <category>Next.js</category>
+      <category>TypeScript</category>
+      <category>Tailwind CSS</category>
+      <category>Material-UI</category>
+      <category>Redux</category>
+      <category>Zustand</category>
+    </item>
+    <item>
+      <title>Fiber Gig World</title>
+      <link>https://adwaheed.github.io/projects/httpsfibergigworld</link>
+      <guid>https://adwaheed.github.io/projects/httpsfibergigworld</guid>
+      <pubDate>Sun, 31 Dec 2023 19:00:00 GMT</pubDate>
+      <description><![CDATA[A modern internet service provider website built with Next.js, featuring WhatsApp integration for instant customer support and inquiries. Key Features: 📡 Internet service plans and pricing 💬 WhatsApp integration for instant support 📱 Responsive design for all devices ⚡ Fast loading and optimized ...]]></description>
+      <category>Web Development</category>
+      <category>Next.js</category>
+      <category>TypeScript</category>
+      <category>Tailwind CSS</category>
+      <category>WhatsApp API</category>
+    </item>
+    <item>
+      <title>Skyways TV Stream</title>
+      <link>https://adwaheed.github.io/projects/skywaystvstream</link>
+      <guid>https://adwaheed.github.io/projects/skywaystvstream</guid>
+      <pubDate>Sun, 31 Dec 2023 19:00:00 GMT</pubDate>
+      <description><![CDATA[A streaming service website built with Next.js, offering TV and internet packages with integrated WhatsApp support for customer inquiries. Key Features: 📺 TV streaming packages and plans 💬 WhatsApp integration for instant support 📱 Mobile-friendly responsive design ⚡ Fast, optimized user experien...]]></description>
+      <category>Web Development</category>
+      <category>Next.js</category>
+      <category>TypeScript</category>
+      <category>Tailwind CSS</category>
+      <category>WhatsApp API</category>
+    </item>
+    <item>
+      <title>High Speed WiFi Deals</title>
+      <link>https://adwaheed.github.io/projects/highspeedwifideals</link>
+      <guid>https://adwaheed.github.io/projects/highspeedwifideals</guid>
+      <pubDate>Sun, 31 Dec 2023 19:00:00 GMT</pubDate>
+      <description><![CDATA[An internet service comparison website built with Next.js, helping users find the best WiFi deals with WhatsApp support for inquiries. Key Features: 🌐 WiFi plans comparison and pricing 💬 WhatsApp integration for instant quotes 📱 Responsive design for all devices ⚡ Fast loading and smooth navigati...]]></description>
+      <category>Web Development</category>
+      <category>Next.js</category>
+      <category>TypeScript</category>
+      <category>Tailwind CSS</category>
+      <category>WhatsApp API</category>
+    </item>
+    <item>
+      <title>Mary and Abbey</title>
+      <link>https://adwaheed.github.io/projects/maryandabbey</link>
+      <guid>https://adwaheed.github.io/projects/maryandabbey</guid>
+      <pubDate>Sun, 31 Dec 2023 19:00:00 GMT</pubDate>
+      <description><![CDATA[A professional WordPress website built with Elementor, showcasing services and portfolio. Fully customized with a modern design and CMS capabilities. Key Features: 🎨 Custom design with Elementor page builder 📱 Fully responsive across all devices 📝 Easy content management with WordPress CMS ⚡ Opti...]]></description>
+      <category>Web Development</category>
+      <category>WordPress</category>
+      <category>Elementor</category>
+      <category>PHP</category>
+      <category>CSS3</category>
+    </item>
+    <item>
+      <title>Tribl.app</title>
+      <link>https://adwaheed.github.io/projects/tribl</link>
+      <guid>https://adwaheed.github.io/projects/tribl</guid>
+      <pubDate>Sat, 31 Dec 2022 19:00:00 GMT</pubDate>
+      <description><![CDATA[A creator-first social platform where creativity meets community and passion fuels engagement. As a Full Stack MERN Developer (mainly frontend and backend API development), I contributed to building a scalable, production-ready MVP and implemented AI-powered content validation using OpenAI. Key Feat...]]></description>
+      <category>Web Development</category>
+      <category>Next.js</category>
+      <category>Node.js</category>
+      <category>TypeScript</category>
+      <category>OpenAI</category>
+      <category>Tailwind CSS</category>
+    </item>
+    <item>
+      <title>Azz AI - Chrome Extension</title>
+      <link>https://adwaheed.github.io/projects/azz-ai</link>
+      <guid>https://adwaheed.github.io/projects/azz-ai</guid>
+      <pubDate>Sat, 31 Dec 2022 19:00:00 GMT</pubDate>
+      <description><![CDATA[Developed a Chrome Extension for Azz Medical Associates in collaboration with Prime Health Services. Built with React.js, the extension integrates TalkeHR and a third-party AI service to enhance employee productivity and streamline workflows. Key Features: 🔄 Seamless integration with TalkeHR and AI...]]></description>
+      <category>Web Development</category>
+      <category>React.js</category>
+      <category>Chrome Extension APIs</category>
+      <category>JavaScript</category>
+      <category>CSS3</category>
+    </item>
+    <item>
+      <title>Azz Appointments</title>
+      <link>https://adwaheed.github.io/projects/azz-appointments</link>
+      <guid>https://adwaheed.github.io/projects/azz-appointments</guid>
+      <pubDate>Fri, 31 Dec 2021 19:00:00 GMT</pubDate>
+      <description><![CDATA[Developed an appointment booking web application using Next.js and Redux for Azz Medical Associates in partnership with Prime Health Services. The app streamlines scheduling by integrating with TalkeHR, enabling management of multiple providers and real-time availability retrieval. Key Features: 📅 ...]]></description>
+      <category>Web Development</category>
+      <category>Next.js</category>
+      <category>React.js</category>
+      <category>Redux</category>
+      <category>JavaScript</category>
+      <category>CSS3</category>
+    </item>
+    <item>
+      <title>92 Limo</title>
+      <link>https://adwaheed.github.io/projects/92-limo</link>
+      <guid>https://adwaheed.github.io/projects/92-limo</guid>
+      <pubDate>Fri, 31 Dec 2021 19:00:00 GMT</pubDate>
+      <description><![CDATA[A cab booking web application built with React. The platform enables users to easily search, book, and manage rides. It leverages React Router DOM for seamless client-side navigation and integrates a third-party SDK to handle the booking and payment flow. Key Features: 🚗 User-friendly cab booking i...]]></description>
+      <category>Web Development</category>
+      <category>React.js</category>
+      <category>React Router DOM</category>
+      <category>HTML5</category>
+      <category>CSS3</category>
+    </item>
+    <item>
+      <title>Ecommerce Store - ONE Store</title>
+      <link>https://adwaheed.github.io/projects/one-store</link>
+      <guid>https://adwaheed.github.io/projects/one-store</guid>
+      <pubDate>Thu, 31 Dec 2020 19:00:00 GMT</pubDate>
+      <description><![CDATA[An e-commerce web application built with Next.js, Tailwind CSS, and Redux Toolkit. The store dynamically displays products using the Fake Store API, providing users with a seamless shopping experience across devices. Key Features: 📦 Dynamic product listing using Fake Store API 🔍 Product detail pag...]]></description>
+      <category>Web Development</category>
+      <category>Next.js</category>
+      <category>Redux Toolkit</category>
+      <category>Tailwind CSS</category>
+      <category>JavaScript</category>
+    </item>
+    <item>
+      <title>Expenser App</title>
+      <link>https://adwaheed.github.io/projects/expenser-app</link>
+      <guid>https://adwaheed.github.io/projects/expenser-app</guid>
+      <pubDate>Thu, 31 Dec 2020 19:00:00 GMT</pubDate>
+      <description><![CDATA[An expense tracking web application built with Next.js and Firebase Firestore. The app allows users to manage their personal finances by adding, viewing, and deleting expenses in real time, with persistent cloud-based data storage. Key Features: 💰 Add, view, and delete expense items 🔄 Real-time up...]]></description>
+      <category>Web Development</category>
+      <category>Next.js</category>
+      <category>Firebase Firestore</category>
+      <category>JavaScript</category>
+      <category>CSS3</category>
+    </item>
+    <item>
+      <title>PublicCompare - HomePage</title>
+      <link>https://adwaheed.github.io/projects/publiccompare</link>
+      <guid>https://adwaheed.github.io/projects/publiccompare</guid>
+      <pubDate>Thu, 31 Dec 2020 19:00:00 GMT</pubDate>
+      <description><![CDATA[Developed the homepage for the PublicCompare website using React.js, HTML, CSS, and Tailwind CSS. The page features a responsive design and integrates multiple APIs to deliver dynamic content and enhance user interaction. Key Features: 🎨 Responsive and modern homepage design 🔄 Dynamic content rend...]]></description>
+      <category>Web Development</category>
+      <category>React.js</category>
+      <category>Tailwind CSS</category>
+      <category>HTML5</category>
+      <category>CSS3</category>
+      <category>API Integration</category>
+    </item>
+    <item>
+      <title>Dowell Classification API</title>
+      <link>https://adwaheed.github.io/projects/dowell-classification</link>
+      <guid>https://adwaheed.github.io/projects/dowell-classification</guid>
+      <pubDate>Thu, 31 Dec 2020 19:00:00 GMT</pubDate>
+      <description><![CDATA[Developed the frontend interface for Dowell's Email Classification API, primarily designed for testing and demonstration purposes. Built with React.js, HTML, CSS, and Tailwind CSS, the application uses Axios to facilitate API communication and display classification results dynamically. Key Features...]]></description>
+      <category>Web Development</category>
+      <category>React.js</category>
+      <category>Tailwind CSS</category>
+      <category>HTML5</category>
+      <category>CSS3</category>
+      <category>Axios</category>
+    </item>
+    <item>
+      <title>Dowell Email API Testing</title>
+      <link>https://adwaheed.github.io/projects/dowell-email</link>
+      <guid>https://adwaheed.github.io/projects/dowell-email</guid>
+      <pubDate>Thu, 31 Dec 2020 19:00:00 GMT</pubDate>
+      <description><![CDATA[Developed the frontend interface for Dowell's Email API, focused on enabling efficient testing and validation of API responses. The application is built with React.js, HTML, CSS, and Tailwind CSS, with Axios used to handle API requests and responses dynamically. Key Features: 🧪 Interactive frontend...]]></description>
+      <category>Web Development</category>
+      <category>React.js</category>
+      <category>Tailwind CSS</category>
+      <category>HTML5</category>
+      <category>CSS3</category>
+      <category>Axios</category>
+    </item>
+    <item>
+      <title>SKY IPTV</title>
+      <link>https://adwaheed.github.io/projects/sky-iptv</link>
+      <guid>https://adwaheed.github.io/projects/sky-iptv</guid>
+      <pubDate>Thu, 31 Dec 2020 19:00:00 GMT</pubDate>
+      <description><![CDATA[Developed the full website for SKY IPTV, including hosting setup and domain procurement. The site features dynamic content powered by several API integrations and is built using HTML, CSS, Bootstrap, and JavaScript. Key Features: 🌐 Complete website development and deployment 📱 Responsive design wi...]]></description>
+      <category>Web Development</category>
+      <category>HTML5</category>
+      <category>CSS3</category>
+      <category>Bootstrap</category>
+      <category>JavaScript</category>
+      <category>API Integration</category>
+    </item>
+    <item>
+      <title>Calculator App</title>
+      <link>https://adwaheed.github.io/projects/calculator</link>
+      <guid>https://adwaheed.github.io/projects/calculator</guid>
+      <pubDate>Thu, 31 Dec 2020 19:00:00 GMT</pubDate>
+      <description><![CDATA[Developed a simple calculator application using React.js, providing essential arithmetic operations including addition, subtraction, multiplication, and division. The app offers a clean and intuitive interface for quick and easy calculations. Key Features: 🧮 Basic arithmetic operations: add, subtra...]]></description>
+      <category>Web Development</category>
+      <category>React.js</category>
+      <category>JavaScript</category>
+      <category>CSS3</category>
+      <category>HTML5</category>
+    </item>
+    <item>
+      <title>Drum Kit App</title>
+      <link>https://adwaheed.github.io/projects/drum-kit</link>
+      <guid>https://adwaheed.github.io/projects/drum-kit</guid>
+      <pubDate>Thu, 31 Dec 2020 19:00:00 GMT</pubDate>
+      <description><![CDATA[Created an interactive Drum Kit web app that allows users to play drum sounds by clicking buttons or pressing keyboard keys. Built with HTML, CSS, and JavaScript, the app provides an engaging and responsive user experience. Key Features: 🥁 Play drum sounds via mouse clicks or keyboard key presses �...]]></description>
+      <category>Web Development</category>
+      <category>HTML5</category>
+      <category>CSS3</category>
+      <category>JavaScript</category>
+    </item>
+  </channel>
+</rss>
